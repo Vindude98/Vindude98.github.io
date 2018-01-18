@@ -1,0 +1,86 @@
+.container{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+body{
+    font-family:sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin:0;
+    padding:0;
+    background: #f4f4f4;
+}
+
+/*Header**/
+
+header{
+    background:#37474f;
+    color:#ffffff;
+    border-bottom:#ff0000 solid 3px;
+    padding-top:20px;
+    min-height:80px;
+
+}
+header #branding{
+   float: left; 
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+/*Paragraph 1**/
+
+
+#paragraph_1 p{
+    float:right;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#paragraph_1 img{
+    float:left;
+    margin-top: 20px;
+    width:250px;
+    border: solid;
+    border-color:#37474f;
+    border-width:4px;
+
+}
+
+/*paragraph 2**/
+
+#paragraph_2{
+margin-top:20px;
+}
+
+/*Technologies**/
+
+#technologies{
+    margin-top: 20px;
+    background: #000000;
+    color: #f4f4f4;
+
+
+}
+
+#resources{
+    background: #000000;
+    color:#ffffff;
+    margin: 0;
+}
+
+a{
+    color: #ffffff;
+}
+
+/*Footer**/
+
+footer{
+   padding:15px;
+   background: #37474f;
+   color: #ffffff;
+   text-align: center;
+}
